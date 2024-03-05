@@ -1,7 +1,4 @@
 [ ] finish up components package
-_[ ] clean up storybook fluff
-__[ ] remove redundant stories
-__[ ] remove redundant storybook addons
 _[ ] add first component | a text input
 __[ ] init tailwind
 __[ ] init shadcn/ui
@@ -11,4 +8,4 @@ __[ ] add stories for text input
 _[ ] init project | /packages/zod-form
 __[ ] add dependencies (zod, react-hook-form, etc)
 _[ ] first version | not yet creating an actual form
-__[ ] z.string() -> text input 
+__[ ] z.string() -> text input
