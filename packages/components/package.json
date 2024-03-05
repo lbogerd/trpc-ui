@@ -6,10 +6,9 @@
 		"./button": "./src/button.tsx"
 	},
 	"scripts": {
-		"dev": "storybook dev -p 6006",
-		"build": "storybook build",
-		"storybook": "storybook dev -p 6006",
-		"build-storybook": "storybook build"
+		"dev": "npm run build:tw --watch && storybook dev -p 6006",
+		"build": "npm run build:tw && storybook build",
+		"build:tw": "tailwindcss -i ./.storybook/tailwind/input.css -o ./.storybook/tailwind/dist.css"
 	},
 	"devDependencies": {
 		"@storybook/addon-essentials": "7.6.17",
@@ -24,6 +23,7 @@
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
 		"storybook": "7.6.17",
+		"tailwindcss": "3.4.1",
 		"typescript": "5.3.3"
 	}
 }
