@@ -1,3 +1,13 @@
+[x] init zod-form
+# 3/6/2024, 3:17:15 AM
+__[x] z.string() -> text input
+# 3/6/2024, 3:16:55 AM
+_[x] first version | not yet creating an actual form
+# 3/6/2024, 3:16:55 AM
+__[ ] add dependencies (zod, react-hook-form, etc)
+# 3/6/2024, 3:14:23 AM
+_[ ] init project | /packages/zod-form
+# 3/6/2024, 3:14:23 AM
 __[x] add stories for text input
 # 3/6/2024, 2:27:44 AM
 __[x] add shadcn/ui text input

@@ -1,5 +1,12 @@
-[ ] init zod-form
-_[ ] init project | /packages/zod-form
-__[ ] add dependencies (zod, react-hook-form, etc)
-_[ ] first version | not yet creating an actual form
-__[ ] z.string() -> text input
+[ ] version v0.0.shit
+_[ ] z.number() -> number input
+__[ ] add shadcn number input
+__[ ] add storybook story for input
+_[ ] z.boolean() -> checkbox
+__[ ] add shadcn checkbox
+__[ ] add storybook story for checkbox
+_[ ] z.object() -> form
+__[ ] add react-hook-form
+__[ ] add shadcn form
+__[ ] add storybook story for form
+__[ ] generate from schema
