@@ -21,6 +21,9 @@ importers:
         specifier: 1.0.2
         version: 1.0.2(@types/react@18.2.62)(react@18.2.0)
     devDependencies:
+      '@repo/zod-form':
+        specifier: workspace:*
+        version: link:../zod-form
       '@storybook/addon-essentials':
         specifier: 7.6.17
         version: 7.6.17(@types/react-dom@18.2.19)(@types/react@18.2.62)(react-dom@18.2.0)(react@18.2.0)
@@ -75,6 +78,19 @@ importers:
       tailwindcss-animate:
         specifier: 1.0.7
         version: 1.0.7(tailwindcss@3.4.1)
+      typescript:
+        specifier: 5.3.3
+        version: 5.3.3
+      zod:
+        specifier: 3.22.4
+        version: 3.22.4
+
+  packages/zod-form:
+    dependencies:
+      zod:
+        specifier: 3.22.4
+        version: 3.22.4
+    devDependencies:
       typescript:
         specifier: 5.3.3
         version: 5.3.3
@@ -7889,3 +7905,6 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
+
+  /zod@3.22.4:
+    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
