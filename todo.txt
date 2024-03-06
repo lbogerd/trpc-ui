@@ -1,6 +1,7 @@
 [ ] version v0.0.shit
-_[ ] z.object() -> form
-__[ ] add react-hook-form
-__[ ] add shadcn form
-__[ ] add storybook story for form
-__[ ] generate from schema
+_[ ] z.object() -> form | form not yet usable only for development
+__[ ] print object definition | for easy development
+__[ ] find all 'children'
+__[ ] loop through them
+__[ ] input for each option | use <ZodFormInput />
+__[ ] put it in a dummy form | maybe window.alert on submit?
