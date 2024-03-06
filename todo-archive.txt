@@ -1,3 +1,15 @@
+__[x] add stories for text input
+# 3/6/2024, 2:27:44 AM
+__[x] add shadcn/ui text input
+# 3/6/2024, 2:27:44 AM
+__[x] init shadcn/ui
+# 3/6/2024, 2:27:44 AM
+__[x] init tailwind
+# 3/6/2024, 2:27:44 AM
+_[x] add first component | a text input
+# 3/6/2024, 2:27:44 AM
+[x] finish up components package
+# 3/6/2024, 2:27:44 AM
 __[x] remove redundant storybook addons
 # 3/5/2024, 11:46:26 AM
 __[x] remove redundant stories

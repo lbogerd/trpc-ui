@@ -1,9 +1,3 @@
-[ ] finish up components package
-_[ ] add first component | a text input
-__[x] init tailwind
-__[ ] init shadcn/ui
-__[ ] add shadcn/ui text input
-__[ ] add stories for text input
 [ ] init zod-form
 _[ ] init project | /packages/zod-form
 __[ ] add dependencies (zod, react-hook-form, etc)
