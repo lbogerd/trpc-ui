@@ -1,5 +1,7 @@
 {
 	"compilerOptions": {
+		"target": "ES6",
+		"moduleResolution": "NodeNext",
 		"strict": true,
 		"strictNullChecks": true,
 		"esModuleInterop": true,

@@ -1,3 +1,17 @@
+__[x] put it in a dummy form | maybe window.alert on submit?
+# 3/6/2024, 2:39:03 PM
+__[x] input for each option | use <ZodFormInput />
+# 3/6/2024, 2:39:03 PM
+__[x] loop through them
+# 3/6/2024, 2:39:03 PM
+__[x] find all 'children'
+# 3/6/2024, 2:39:03 PM
+__[x] print object definition | for easy development
+# 3/6/2024, 2:39:03 PM
+_[x] z.object() -> form | form not yet usable only for development
+# 3/6/2024, 2:39:03 PM
+[x] version v0.0.shit
+# 3/6/2024, 2:39:03 PM
 __[x] add storybook story for checkbox
 # 3/6/2024, 1:58:31 PM
 __[x] add shadcn checkbox

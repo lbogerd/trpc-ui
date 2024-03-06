@@ -1,12 +1,20 @@
-// import { schemaToForm } from "@repo/zod-form/main";
 import { ZodTypeAny } from "zod";
 import { Checkbox } from "../ui/checkbox";
 import { Input } from "../ui/input";
 
-export function ZodFormInput<T extends ZodTypeAny>(schema: T) {
-	const typeName = schema._def.typeName;
+type ZodFormInputProps = {
+	schema?: ZodTypeAny;
+	typeName?: string;
+};
 
-	switch (typeName) {
+export function ZodFormInput({ schema, typeName }: ZodFormInputProps) {
+	if (schema && typeName) {
+		throw new Error("Only one of 'schema' or 'typeName' should be provided");
+	}
+
+	const parsedTypeName = schema?._def.typeName || typeName;
+
+	switch (parsedTypeName) {
 		case "ZodString":
 			return (
 				<>
