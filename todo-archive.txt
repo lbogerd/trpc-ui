@@ -1,3 +1,9 @@
+__[x] add storybook story for checkbox
+# 3/6/2024, 1:58:31 PM
+__[x] add shadcn checkbox
+# 3/6/2024, 1:58:31 PM
+_[x] z.boolean() -> checkbox
+# 3/6/2024, 1:58:31 PM
 __[x] add storybook story for input
 # 3/6/2024, 1:53:32 PM
 __[x] add shadcn number input

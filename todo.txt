@@ -1,7 +1,4 @@
 [ ] version v0.0.shit
-_[ ] z.boolean() -> checkbox
-__[ ] add shadcn checkbox
-__[ ] add storybook story for checkbox
 _[ ] z.object() -> form
 __[ ] add react-hook-form
 __[ ] add shadcn form
