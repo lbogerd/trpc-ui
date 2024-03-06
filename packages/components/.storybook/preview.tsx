@@ -1,5 +1,7 @@
 import type { Preview } from "@storybook/react";
 
+import React from "react";
+
 import "./tailwind/dist.css";
 
 const preview: Preview = {
@@ -13,5 +15,7 @@ const preview: Preview = {
 		},
 	},
 };
+
+type test = React.FormEvent;
 
 export default preview;

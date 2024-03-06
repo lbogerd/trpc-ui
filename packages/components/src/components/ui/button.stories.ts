@@ -15,7 +15,8 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
 	args: {
-		appName: "Storybook",
-		children: "Hello",
+		id: "dit-is-een-test",
+		onClick: () => window.alert("Hello, world!"),
+		children: "Hello, world!",
 	},
 };
