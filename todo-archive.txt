@@ -1,3 +1,9 @@
+__[x] add storybook story for input
+# 3/6/2024, 1:53:32 PM
+__[x] add shadcn number input
+# 3/6/2024, 1:53:32 PM
+_[x] z.number() -> number input
+# 3/6/2024, 1:53:32 PM
 [x] init zod-form
 # 3/6/2024, 3:17:15 AM
 __[x] z.string() -> text input
