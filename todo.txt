@@ -1,0 +1,6 @@
+[ ] add more field options | nice and simple
+_[ ] date
+_[ ] select 
+__[ ] z.literal("tuna")
+__[ ] z.literal(4)
+__[ ] z.enum(["og", "gg", "eg"])
